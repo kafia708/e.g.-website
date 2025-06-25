@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>We Are Cardiff</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">{ <span>We Are Cardiff</span> }</div>
+  </header>
+
+  <nav>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+    <ul id="main-nav">
+      <li><a href="#">THE PEOPLE</a></li>
+      <li><a href="#">THE CITY</a></li>
+      <li><a href="#">THE ARTS</a></li>
+      <li>
+        <a href="#">ABOUT</a>
+        <ul>
+          <li><a href="#">Who We Are</a></li>
+          <li><a href="#">Our Vision</a></li>
+        </ul>
+      </li>
+      <li><a href="#">CARDIFF HISTORY</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="Search..." />
+    </div>
+  </nav>
+
+  <div class="banner">
+    <img src="kafia.webp.jpg" alt="Sŵn Connect Banner" />
+  </div>
+  <div class="promo-bar">
+    <p>🎵 Sŵn Connect 2024 – The Music Industry Conference Reimagined – Free Tickets!</p>
+  </div>
+
+  <div class="container">
+    <aside class="sidebar">
+      <p><strong>We Are Cardiff</strong></p>
+      <p>A blog about Cardiff, its people, and the alternative arts and cultural scene!</p>
+      <label for="archive">ARCHIVES</label><br />
+      <select id="archive">
+        <option>Select Month</option>
+        <option>June 2025</option>
+        <option>May 2025</option>
+        <option>April 2025</option>
+      </select>
+      <p><strong>BLOG STATS</strong><br />972,189 boings</p>
+      <p><strong>TOP POSTS & PAGES</strong><br />
+        - <a href="#">Doctor Who filming locations in Cardiff</a><br />
+        - <a href="#">Cardiff in the Eighties – by Nick Sarebi</a><br />
+        - <a href="#">Should I move to Cardiff?</a>
+      </p>
+      <div class="logos">
+        <img src="https://wearecardiff.co.uk/wp-content/uploads/2023/03/cardiffmusic.png" alt="Music Festival Logo" />
+        <img src="https://wearecardiff.co.uk/wp-content/uploads/2023/03/cornerstone.png" alt="Cornerstone Logo" />
+      </div>
+      <div class="pinterest">
+        <p><strong>PINTEREST</strong></p>
+        <img src="https://wearecardiff.co.uk/wp-content/uploads/2023/03/pinterest-cardiff.jpg" alt="Pinterest preview" />
+      </div>
+    </aside>
+
+    <main class="content">
+      <img src="tamana.webp" alt="" />
+      <h2>By Tamana Ahmad</h2>
+
+      <p>A celebration of music, film, art and sustainability is the promise from the seventh edition of Cardiff’s Immersed Festival, which has its main event at Tramshed TONIGHT (Saturday 22 March 2025).</p>
+      <p>The night’s main attraction is <a href="#">Frankie Stew and Harvey Gunn</a>, a rap and production pair making their Wales debut. Electronic DJ/producer <a href="#">Douvelle19</a> and Manchester electro-pop group <a href="#">Porij</a> are two more noteworthy performers.</p>
+      <p>The festival’s dedication to presenting new and varied talent is demonstrated by the lineup, which features a blend of rock, rap, punk, hyperpop, grime, and dance.</p>
+      <p>The month-long student-led festival, organized by over 500 students from the University of South Wales (USW), runs until April 3. The festival’s main event, which features over 30 acts on four themed stages, will take place at Tramshed Cardiff from 3pm to 11pm on Saturday (March 22).</p>
+
+      <img src="image tamaana.webp" alt="Wales Blog Awards" style="width: 400px; height: 400px;" />
+
+      <p style="margin-top: 20px; font-size: 17px; line-height: 1.6;">
+        This year’s festival brings together over 500 students, artists, and performers to highlight the rich cultural diversity of Cardiff. Expect immersive experiences, stunning performances, and thought-provoking art pieces throughout the month.
+      </p>
+
+      <p style="font-size: 17px; line-height: 1.7;">
+        The Immersed Festival has grown into one of Cardiff’s most anticipated cultural celebrations, drawing together artists, musicians, filmmakers, and creative minds from all walks of life. What makes this festival unique is not only its diversity of performances but the deep community spirit that fuels it. This year’s edition promises an explosion of colors, sound, and expression, providing audiences with immersive experiences across a variety of art forms. From electrifying music sets to thought-provoking films and sustainable art installations, the festival offers something for everyone. It stands as a true testament to the creative pulse of Cardiff and continues to inspire younger generations to take part in shaping the city’s vibrant cultural future.
+      </p>
+
+      <p style="font-size: 17px; line-height: 1.7;">
+        <strong>At the heart of sustainability</strong> lies a deep respect for nature, people, and the future we are building together. The Immersed Festival doesn’t just showcase creativity — it also champions environmental responsibility. From using recycled materials for stage designs to promoting low-carbon transport for festivalgoers, every detail reflects a commitment to a greener world. Educational workshops, eco-art installations, and talks about climate change are integrated throughout the event, encouraging the community to reflect, take action, and reimagine how we live in harmony with our planet. In this space, art meets activism, and creativity becomes a powerful tool for change.
+      </p>
+    </main>
+  </div>
+
+  <footer>
+    &copy; 2025 We Are Cardiff. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var nav = document.getElementById("main-nav");
+      if (nav.style.display === "flex" || nav.style.display === "block") {
+        nav.style.display = "none";
+      } else {
+        nav.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
